@@ -1,10 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .submenu {
     display: none;
-    border: 1px solid black;
     position: absolute;
-    left: 0;
-    top: 100%;
-    background-color: #fff;
+}
+
+.submenu,
+.dropdown-menu {
+    border: 2px solid rgba(0, 0, 0, 0.4);
 }
 
 .menu,
@@ -24,10 +31,21 @@
 }
 
 .menu li:hover {
-    border-color: black;
+    border-color: rgb(52, 20, 168);
 }
 
 .submenu li {
     display: block;
     padding: 8px;
+}
+
+.menu button a {
+    text-decoration: none;
+    color: #000000e1;
+}
+
+.navbar-toggler-icon {
+    background-color: aqua;
+    display: block;
+    color: black;
 }

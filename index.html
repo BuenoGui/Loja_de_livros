@@ -5,43 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog's Bookstore</title>
 
-    <link rel="stylesheet" href="src/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
     <header>
+        <div class="header-princial">
+            <div>
+                <h1>Dog's Store</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
         <div class="container">
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             <nav class="container">
-                <ul class="menu">
+                <ul class="menu collapse navbar-collapse" id="menu">
                     <li>
-                        Produtos
+                        <button class="btn"><a href="#">Inicio</a></button>
                         <ul class="submenu">
-                            <li>
-                                <a href="#">Livros</a>
-                            </li>
-                            <li>
-                                <a href="#">Quadros</a>
-                            </li>
-                            <li>
-                                <a href="#">Pelucias</a>
-                            </li>
+                                <li>
+                                    <div class="btn-group">
+                                        <a class="btn btn-warning" href="#">Login</a>
+                                        <button class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown"></button>
+                                    <ul class="dropdown-menu dropdown-menu">
+                                        <li class="dropdown-item">
+                                            <a href="#">Perdi a senha</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="#">Esqueci usuario</a>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                </li>
                         </ul>
                     </li>
                     
                     <li>
-                        <button class="btn">Produtos</button>
+                        <button class="btn"><a href="#">Produtos</a></button>
                         <ul class="submenu">
                                 <li>
                                     <div class="btn-group">
-                                        <a href="#">Livros</a>
-                                        <button class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
-                                    </div>
-                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <a class="btn btn-warning" href="#">Livros</a>
+                                        <button class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">
+                                            
+                                        </button>
+                                    <ul class="dropdown-menu dropdown-menu">
                                         <li class="dropdown-item">
                                             <a href="#">Best-Salers</a>
                                         </li>
@@ -55,36 +66,75 @@
                                             <a href="#">autobiografia</a>
                                         </li>
                                     </ul>
+                                    </div>
                                 </li>
+
                                 <li>
-                                    <a href="#">Perdi minha senha</a>
+                                    <div class="btn-group">
+                                        <a class="btn btn-warning" href="#">Quadros</a>
+                                        <button class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">
+                                            
+                                        </button>
+                                    <ul class="dropdown-menu dropdown-menu">
+                                        <li class="dropdown-item">
+                                            <a href="#">Bordas Claras</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="#">Bordas Escuras</a>
+                                        </li>
+                                    </ul>
+                                    </div>
                                 </li>
+
                                 <li>
-                                    <a href="#">Esquci meu usuario</a>
+                                    <div class="btn-group">
+                                        <a class="btn btn-warning" href="#">Pelucias</a>
+                                        <button class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">
+                                            
+                                        </button>
+                                    <ul class="dropdown-menu dropdown-menu">
+                                        <li class="dropdown-item">
+                                            <a href="#">Animais</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="#">Ficticios</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="#">Antialergico</a>
+                                        </li>
+                                    </ul>
+                                    </div>
                                 </li>
                         </ul>
                     </li>
 
                     <li>
-                        Lojas
+                        <button class="btn"><a href="#">Lojas</a></button>
                         <ul class="submenu">
-                            <li>
-                                <a href="#">Nossas Lojas</a>
-                            </li>
-                            <li>
-                                <a href="#">Redes Sociais</a>
-                            </li>
+                                <li>
+                                    <div class="btn-group">
+                                        <a class="btn btn-warning" href="#">Lojas</a>
+                                        <button class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown"></button>
+                                    <ul class="dropdown-menu dropdown-menu">
+                                        <li class="dropdown-item">
+                                            <a href="#">Endereços</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="#">Contato</a>
+                                        </li>
+                                    </ul>
+                                    </div>
+                                </li>
                         </ul>
                     </li>
 
                     <li>
-                        <a href="#">Contato</a>
+                        <button class="btn"><a href="#">Contato</a></button>
                     </li>
-                </ul>
             </nav>
         </div>
     </header>
 
-    <script src="src/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
