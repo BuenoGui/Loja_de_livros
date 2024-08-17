@@ -1,0 +1,33 @@
+.submenu {
+    display: none;
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #fff;
+}
+
+.menu,
+.submenu {
+    list-style: none;
+}
+
+.menu > li {
+    float: left;
+    padding: 16px;
+    border-top: 4px solid transparent;
+    position: relative;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.menu li:hover {
+    border-color: black;
+}
+
+.submenu li {
+    display: block;
+    padding: 8px;
+}

@@ -6,12 +6,84 @@
     <title>Dog's Bookstore</title>
 
     <link rel="stylesheet" href="src/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-    
+    <header>
+        <div class="container">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="container">
+                <ul class="menu">
+                    <li>
+                        Produtos
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Livros</a>
+                            </li>
+                            <li>
+                                <a href="#">Quadros</a>
+                            </li>
+                            <li>
+                                <a href="#">Pelucias</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <button class="btn">Produtos</button>
+                        <ul class="submenu">
+                                <li>
+                                    <div class="btn-group">
+                                        <a href="#">Livros</a>
+                                        <button class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
+                                    </div>
+                                    <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li class="dropdown-item">
+                                            <a href="#">Best-Salers</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="#">Terror</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="#">Documentarios</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="#">autobiografia</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Perdi minha senha</a>
+                                </li>
+                                <li>
+                                    <a href="#">Esquci meu usuario</a>
+                                </li>
+                        </ul>
+                    </li>
 
+                    <li>
+                        Lojas
+                        <ul class="submenu">
+                            <li>
+                                <a href="#">Nossas Lojas</a>
+                            </li>
+                            <li>
+                                <a href="#">Redes Sociais</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <script src="src/bootstrap.bundle.min.js"></script>
 </body>
