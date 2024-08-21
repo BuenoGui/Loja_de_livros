@@ -185,6 +185,10 @@ aside {
     margin-bottom: 15%;
 }
 
+#lojas > * {
+    left: 0;
+}
+
 #lojas ul {
     flex-direction: column;
 }
@@ -198,9 +202,14 @@ aside {
 }
 
 .texto {
-    margin-bottom: 10%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .texto strong {
     text-decoration: underline;
+}
+
+.texto > * {
+    padding-bottom: 2%;
 }
