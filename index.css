@@ -5,6 +5,11 @@ ul {
     padding: 0;
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 .submenu {
     display: none;
     position: absolute;
@@ -151,4 +156,12 @@ aside {
 
 .links > * {
     padding-top: 5%;
+}
+
+.abas {
+    margin-bottom: 10%;
+}
+
+.titulo > h2 {
+    margin-bottom: 15%;
 }
