@@ -152,11 +152,13 @@ ul {
 }
 
 aside {
-    position: absolute;
+    position: sticky;
     width: 10%;
     top: 35%;
     margin-left: 2%;
+    z-index: 1;
 }
+
 
 .links li a {
     color: rgba(0, 0, 0, 0.8);
@@ -212,4 +214,8 @@ aside {
 
 .texto > * {
     padding-bottom: 2%;
+}
+
+.socialmedia {
+    padding-bottom: 20%;
 }
