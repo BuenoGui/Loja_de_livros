@@ -152,7 +152,7 @@ ul {
 }
 
 aside {
-    position: sticky;
+    position: absolute;
     width: 10%;
     top: 35%;
     margin-left: 2%;
@@ -208,7 +208,8 @@ aside {
     align-items: center;
 }
 
-.texto strong {
+.texto strong,
+.carrinho h2 {
     text-decoration: underline;
 }
 
@@ -218,4 +219,36 @@ aside {
 
 .socialmedia {
     padding-bottom: 20%;
+}
+
+.carrinho {
+    position: absolute;
+    margin-right: 0;
+}
+
+.carrinho > .container {
+    flex-direction: column;
+}
+
+.item .card-body {
+    flex-direction: column;
+}
+
+.item .card-body > * {
+    padding-left: 4%
+}
+
+.item .card-body > div.d-flex {
+    width: 50%;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5%;
+}
+
+.item .card-body > div.d-flex p {
+    text-align: left;
+}
+
+.item .card-body > div.d-flex div > * {
+    margin-right: 4%;
 }
