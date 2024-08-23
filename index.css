@@ -127,6 +127,11 @@ section .container {
     overflow: auto;
 }
 
+.carrinho > .container {
+    display: flex;
+    flex-direction: ;
+}
+
 #tabela > *,
 .livros > * {
     margin-top: 8%;
@@ -222,33 +227,42 @@ aside {
 }
 
 .carrinho {
-    position: absolute;
-    margin-right: 0;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 4%;
+    max-width: 420px;
+    width: 100%;
+    max-height: 90%;
+    align-items: center;
 }
 
 .carrinho > .container {
     flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
 }
 
 .item .card-body {
     flex-direction: column;
 }
 
-.item .card-body > * {
-    padding-left: 4%
-}
-
 .item .card-body > div.d-flex {
-    width: 50%;
+    width: auto;
     flex-direction: column;
     position: absolute;
     bottom: 5%;
 }
 
-.item .card-body > div.d-flex p {
-    text-align: left;
+.item .card-body > div.d-flex div > * {
+    margin-right: 8%;
 }
 
-.item .card-body > div.d-flex div > * {
-    margin-right: 4%;
+.item {
+    width: 100%;
+    margin-bottom: 8%;
+}
+
+.total {
+    justify-content: center;
 }
