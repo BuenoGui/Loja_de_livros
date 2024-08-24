@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <!-- <header >
+    <header>
         <nav class="navbar navbar-light">
             <div class="header-princial col-12">
                 <div class="container d-flex">
@@ -764,11 +764,14 @@
                     </li>
                 </ul>
         </div>
-    </section> -->
+    </section>
 
     <div class="carrinho d-flex">
         <div class="container d-flex">
-            <h2>Carrinho</h2>
+            <div class="d-flex">
+                <h2>Carrinho</h2>
+                <button type="button" class="btn btn-danger">X</button>
+            </div>
             <div class="item">
                 <div class="card" style="max-width: 360px;">
                     <div class="d-flex">
@@ -846,10 +849,14 @@
             </div>
         </div>
         <h2>Total</h2>
-        <div class="total d-flex">
-            <h2>R$: </h2>
-            <h2> 42,90 Reais</h2>
+        <div class="d-flex justify-content-around mb-2" style="width: 100%;">
+            <div class="d-flex">
+                <h2>R$: </h2>
+                <h2> 42,90 Reais</h2>
+            </div>
+            <button type="button" class="btn btn-success">Fechar carrinho</button>
         </div>
+        
     </div>
     
 
