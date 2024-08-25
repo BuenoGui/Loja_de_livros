@@ -130,7 +130,6 @@ section .container {
 
 .carrinho > .container {
     display: flex;
-    flex-direction: ;
 }
 
 #tabela > *,
@@ -228,6 +227,7 @@ aside {
 }
 
 .carrinho {
+    display: none;
     background-color: antiquewhite;
     flex-direction: column;
     position: fixed;
