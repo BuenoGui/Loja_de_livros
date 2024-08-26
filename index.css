@@ -157,7 +157,7 @@ ul {
 }
 
 aside {
-    position: absolute;
+    position: sticky;
     width: 10%;
     top: 35%;
     margin-left: 2%;
