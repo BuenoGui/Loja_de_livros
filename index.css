@@ -278,27 +278,16 @@ aside {
     height: 80%;
 }
 
-.carrinho .container div.d-flex {
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.carrinho .container > div.d-flex {
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-
-.carrinho .container div.d-flex button {
-    height: 80%;
-}
 
 .item .card-body > div.d-flex {
-    width: auto;
     flex-direction: column;
     position: absolute;
     bottom: 5%;
+}
+
+.quantidade {
+    width: 100%;
+    justify-content: space-around;
 }
 
 .item {
@@ -307,8 +296,4 @@ aside {
 
 .item .card {
     background-color: #ffffffaf;
-}
-
-.item .card .card-body {
-
 }
