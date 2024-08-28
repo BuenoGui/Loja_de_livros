@@ -278,6 +278,10 @@ aside {
     height: 80%;
 }
 
+.carrinho > .container > .d-flex {
+    width: 100%;
+    justify-content: space-around;
+}
 
 .item .card-body > div.d-flex {
     flex-direction: column;
