@@ -267,7 +267,20 @@ aside {
     height: 100%;
     padding-left: 1%;
     z-index: 1;
-    justify-content: center;
+    text-align: center;
+}
+
+.carrinho h2 {
+    margin-bottom: 8%;
+    margin-top: 8%;
+}
+
+.carrinho > div.d-flex.justify-content-around h2 {
+    margin: 0;
+}
+
+.carrinho > div.d-flex.justify-content-around {
+    height: 5%;
 }
 
 .carrinho > .container {
@@ -281,6 +294,8 @@ aside {
 .carrinho > .container > .d-flex {
     width: 100%;
     justify-content: space-around;
+    height: 12%;
+    align-items: center;
 }
 
 .item .card-body > div.d-flex {
