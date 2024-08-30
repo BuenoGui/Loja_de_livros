@@ -5,6 +5,10 @@ ul {
     padding: 0;
 }
 
+body {
+    flex-wrap: wrap;
+}
+
 header {
     position: sticky;
     z-index: 1;
@@ -203,10 +207,14 @@ ul {
 }
 
 .aside {
-    position: sticky;
+    position: relative;
     width: 10%;
     top: 35%;
-    z-index: 1;
+    margin-left: 2%;
+}
+
+aside {
+    position: sticky;
 }
 
 
